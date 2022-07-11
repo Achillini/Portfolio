@@ -1,0 +1,177 @@
+:root {
+    
+    --primary-color: var(#ffff);
+    --main-color: rgb(113, 48, 138);
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    padding: 180px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0;
+    background-image: url("../images/flower.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+    z-index: 9999;
+}
+
+.container {
+    top: 0;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    width: auto;
+}
+
+.nav-list {
+    display: inline-flex;
+    overflow: hidden;
+    background-color: none;
+    list-style-type: none;
+    
+}
+
+.nav-list li {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.nav-list li a {
+    
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--main-color); 
+    color: #ffff;
+}
+
+.with-200 {
+    width: 200px;
+}
+
+.projects-title {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pro {
+    color: #ffff;
+}
+
+.pro img {
+    max-height: 150px;
+}
+
+.skill-title {
+    display: flex;
+    justify-content: center;
+}
+
+.colum-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-section {
+    position:absolute;
+    left:0px; 
+    margin: 20px;
+    top: 50px
+}
+
+.paragraph-title {
+    position: absolute;
+    top:100px;
+    font-style: italic;
+    
+}
+
+
+
+
+footer {
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("../images/flower.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+    z-index: 9999;
+
+}
+
+.bio-title {
+    display: flex;
+    justify-content: center;
+}
+
+.get {
+    background-color: var(rgb(226, 201, 236));
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.get p {
+    padding: 20px;
+    line-height: 1.7;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pro {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.ski {
+    background-color: var(--backgound-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+.ski img {
+    max-height: 100px;
+}
+
+.communication {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resume img {
+    max-height: 100px;
+}
+
+.contact img {
+    max-height: 100px;
+}
+
