@@ -208,3 +208,39 @@ footer {
     max-height: 100px;
 }
 
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+
+    .container {
+        justify-content: center
+    } 
+
+    .paragraph-title {
+        left: 19px;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
+
+
+
+
+
+
+
+    }
+    
+
+
+
+
+
+
+
