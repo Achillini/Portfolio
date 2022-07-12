@@ -23,12 +23,15 @@ header {
     margin-bottom: 400px;
 }
 
+/*Navegation list*/
 .container {
-    top: 350px;
+    top: 375px;
     position: absolute;
     right: 0;
     margin: 20px;
     width: auto;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .nav-list {
@@ -45,15 +48,15 @@ header {
 }
 
 .nav-list li a {
-    
     text-decoration: none;
+    padding: 15px;
 }
 
 a:hover {
     background-color: var(--main-color); 
     color: #ffff;
 }
-
+/*Projects*/
 .with-200 {
     width: 200px;
     display: flex;
@@ -79,7 +82,14 @@ a:hover {
 .pro img {
     max-height: 150px;
 }
+
+.enlarge:hover {
+    height: 235px;
+    width: 235px;
+    border-style: solid; color: var(--primary-color);
+}
  
+/*Skills*/
 .skill-title {
     display: flex;
     justify-content: center;
@@ -112,8 +122,11 @@ a:hover {
     justify-content: start;
 }
 
+/*Communication section*/
 .communication {
     background-color: var(--main-color);
+    display: flex;
+    justify-content: space-around;
 }
 
 .contact-title {
@@ -136,6 +149,7 @@ footer {
     background-position: 100%;
     z-index: 9999;
 
+    /*Get to know me section*/
 }
 
 .bio-title {
@@ -184,10 +198,7 @@ footer {
     max-height: 100px;
 }
 
-.communication {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .resume img {
     max-height: 100px;
