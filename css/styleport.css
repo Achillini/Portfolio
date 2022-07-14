@@ -149,8 +149,15 @@ footer {
     background-position: 100%;
     z-index: 9999;
 
-    /*Get to know me section*/
 }
+
+.footer p {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+/*Get to know me section*/
 
 .bio-title {
     display: flex;
